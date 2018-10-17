@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -65,7 +69,7 @@ ul > li > a {
 }
 
 .main {
-	background-color: #9EA3B0;
+	background-color: #A1D8E5;
 	margin-left: 200px;
 	font-family: 'Cantarell', sans-serif;
 }
@@ -113,13 +117,13 @@ section > h2:hover {
 
 .about {
 	background-color: #3E91A9;
-	height: 100vh;
+	height: 100%;
 	border: 5px solid #D9E5D6;
 	margin:40px;
 	border-radius: 30px;
 	position: relative;
 	padding: 30px;
-	float: left;
+/*	float: left;*/
 	
 }
 
@@ -144,7 +148,10 @@ section > img {
 	border: 5px solid #D9E5D6;
 	margin:40px;
 	border-radius: 30px;
+	min-height: 100px;
+
 */
+	height: 100%;
 }
 
 .column {
